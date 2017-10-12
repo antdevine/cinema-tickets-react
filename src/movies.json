@@ -1,14 +1,24 @@
 {
-  "title": "The Basics - Networking",
-  "description": "Your app fetched this from a remote endpoint!",
-  "movies": {
-    "moviesone": { 
-      "title": "Star Wars", 
-      "releaseYear": "1977"
+  "sample": {
+      "someitem": {
+          "thesearecool": [
+              {
+                  "neat": "wow"
+              },
+              {
+                  "neat": "tubular"
+              }
+          ]
       },
-      "moviestwo": { 
-        "title": "Batman", 
-        "releaseYear": "1987"
-      }
+      "coolcolors": [
+          {
+              "color":"red",
+              "hex":  "ff0000"
+          },
+          {
+              "color":"blue",
+              "hex":"0000ff"
+          }
+      ]
   }
 }

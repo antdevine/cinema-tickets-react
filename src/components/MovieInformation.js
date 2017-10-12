@@ -16,16 +16,24 @@ class MovieInformaton extends React.Component {
         .then((findresponse) =>
         {
             this.setState({
-                data:findresponse.movies,
+                data:findresponse.someitem,
             })
-            console.log(findresponse.movies)
+            console.log(findresponse.someitem)
         })
     }
 
 
     render() {
         return (
-        <div></div>
+        <div>
+            {
+                this.state.data.map((dynamicData, key) =>
+                <div key={dynamicData.thesearecool.neat}>
+                    <span>{dynamicData.thesearecool.neat}: </span>
+                </div>
+                )
+            }
+        </div>
         )
     }
 
