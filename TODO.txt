@@ -1,0 +1,5 @@
+Next step:
+Now have data pulling into page need to make individual pages for each film.
+
+Do this tutorial: https://medium.com/@pshrmn/a-simple-react-router-v4-tutorial-7f23ff27adf to create routes for individual pages
+THen do this example to try and create dynamic pages based on their ID and in that component pull in the film details: https://stackoverflow.com/questions/35764510/how-to-implement-dynamic-routing-in-routes-js-for-generated-menu-items-in-sideba

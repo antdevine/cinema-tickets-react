@@ -11,7 +11,7 @@ class MovieInformaton extends React.Component {
     }
 
     componentDidMount() {
-        fetch('https://raw.githubusercontent.com/antdevine/cinema-tickets-react/master/src/movies.json')
+        fetch('http://www.daemondesigns.co.uk/jsondata/movies.json')
         .then((Response) => Response.json())
         .then((findresponse) =>
         {
@@ -29,13 +29,13 @@ class MovieInformaton extends React.Component {
             {
                 this.state.data.map((dynamicData, key) =>
                 <div key={dynamicData.title}>
-                    <span>{dynamicData.title}: </span>
-                    <span>{dynamicData.director}: </span>
-                    <span>{dynamicData.duration}: </span>
-                    <span>{dynamicData.genre}: </span>
-                    <span>{dynamicData.releaseDate}: </span>
-                    <span>{dynamicData.poster}: </span>
-                    <span>{dynamicData.aboutMovie}: </span>
+                    <span>{dynamicData.title} </span>
+                    <span>{dynamicData.director} </span>
+                    <span>{dynamicData.duration} </span>
+                    <span>{dynamicData.genre} </span>
+                    <span>{dynamicData.releaseDate} </span>
+                    <span><img src={dynamicData.poster} alt={dynamicData.title} /> </span>
+                    <span>{dynamicData.aboutMovie} </span>
                 </div>
                 )
             }
