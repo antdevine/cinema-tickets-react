@@ -16,9 +16,9 @@ class MovieInformaton extends React.Component {
         .then((findresponse) =>
         {
             this.setState({
-                data:findresponse.someitem,
+                data:findresponse.movies,
             })
-            console.log(findresponse.someitem)
+            console.log(findresponse.movies)
         })
     }
 
@@ -28,8 +28,9 @@ class MovieInformaton extends React.Component {
         <div>
             {
                 this.state.data.map((dynamicData, key) =>
-                <div key={dynamicData.thesearecool.neat}>
-                    <span>{dynamicData.thesearecool.neat}: </span>
+                <div key={dynamicData.title}>
+                    <span>{dynamicData.title}: </span>
+                    <span>{dynamicData.releaseYear}</span>
                 </div>
                 )
             }
