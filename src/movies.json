@@ -2,10 +2,8 @@
   "title": "The Basics - Networking",
   "description": "Your app fetched this from a remote endpoint!",
   "movies": [
-    { "title": "Star Wars", "releaseYear": "1977"},
-    { "title": "Back to the Future", "releaseYear": "1985"},
-    { "title": "The Matrix", "releaseYear": "1999"},
-    { "title": "Inception", "releaseYear": "2010"},
-    { "title": "Interstellar", "releaseYear": "2014"}
+    { "title": "It", "director": "Andy Muschietti", "duration": "135", "genre": "Horror", "releaseDate": "08/09/17", "poster": "https://images-na.ssl-images-amazon.com/images/M/MV5BOTE0NWEyNDYtYWI5MC00MWY0LTg1NDctZjAwMjkyMWJiNzk1XkEyXkFqcGdeQXVyNjk5NDA3OTk@._V1_SY1000_CR0,0,674,1000_AL_.jpg", "aboutMovie": "A group of bullied kids band together when a shapeshifting demon, taking the appearance of a clown, begins hunting children." },
+    { "title": "Blade runner 2049", "director": "Denis Villeneuve", "duration": "235", "genre": "Sci-Fi", "releaseDate": "06/10/17", "poster": "https://images-na.ssl-images-amazon.com/images/M/MV5BNzA1Njg4NzYxOV5BMl5BanBnXkFtZTgwODk5NjU3MzI@._V1_SY1000_CR0,0,674,1000_AL_.jpg", "aboutMovie": "A young blade runner's discovery of a long-buried secret leads him to track down former blade runner Rick Deckard, who's been missing for thirty years." },
+    { "title": "Jigsaw", "director": "Michael Spierig", "duration": "185", "genre": "Horror", "releaseDate": "27/10/17", "poster": "https://images-na.ssl-images-amazon.com/images/M/MV5BMTU5MDY1Njk3NV5BMl5BanBnXkFtZTgwMzQ4MjQ4MjI@._V1_UX182_CR0,0,182,268_AL_.jpg", "aboutMovie": "Bodies are turning up around the city, each having met a uniquely gruesome demise. As the investigation proceeds, evidence points to one suspect: John Kramer, the man known as Jigsaw, who has been dead for ten years." }
   ]
 }
