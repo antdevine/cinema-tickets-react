@@ -2,9 +2,13 @@
   "title": "The Basics - Networking",
   "description": "Your app fetched this from a remote endpoint!",
   "movies": {
-    "moviesone":
-      { "title": "Star Wars", 
-        "releaseYear": "1977"
+    "moviesone": { 
+      "title": "Star Wars", 
+      "releaseYear": "1977"
+      },
+      "moviestwo": { 
+        "title": "Batman", 
+        "releaseYear": "1987"
       }
   }
 }

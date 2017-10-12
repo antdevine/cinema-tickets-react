@@ -25,16 +25,7 @@ class MovieInformaton extends React.Component {
 
     render() {
         return (
-        <div>
-            {
-                this.state.data.map((dynamicData, key) =>
-                <div key={dynamicData.moviesone.title}>
-                    <span>{dynamicData.moviesone.title}: </span>
-                    <span>{dynamicData.moviesone.releaseYear}</span>
-                </div>
-                )
-            }
-        </div>
+        <div></div>
         )
     }
 
