@@ -11,7 +11,7 @@ class MovieInformaton extends React.Component {
     }
 
     componentDidMount() {
-        fetch('http://www.daemondesigns.co.uk/jsondata/movies.json')
+        fetch('https://raw.githubusercontent.com/antdevine/cinema-tickets-react/master/src/movies.json')
         .then((Response) => Response.json())
         .then((findresponse) =>
         {
