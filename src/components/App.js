@@ -1,6 +1,5 @@
 import React from "react";
 import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
-import MovieInformation from './MovieInformation';
 import "../../node_modules/video-react/dist/video-react.css";
 import { Player } from 'video-react';
 
@@ -74,6 +73,7 @@ const LATESTFILMS = [
 
 const Home = () => (
   <div>
+
     <Link to="/AllFilms">All films</Link>
     <h2>Latest Films</h2>
     <ul>
@@ -88,7 +88,7 @@ const Home = () => (
         >
           <li><img src={i.poster} />
           <p>{i.title}</p>
-          <button>READ MORE</button></li>          
+          <button>READ MORE</button></li>
         </Link>
       ))}
     </ul>
@@ -128,7 +128,7 @@ const FilmsView = ({ match }) => {
       <img src={films.poster} alt={films.title} />
       <Player playsInline poster={films.poster} src={films.trailer} />
       <p>{films.director}</p>
-      <p>{films.dureation}</p>
+      <p>{films.duration}</p>
       <p>{films.genre}</p>
       <p>{films.releaseDate}</p>
       <p>{films.aboutMovie}</p>
